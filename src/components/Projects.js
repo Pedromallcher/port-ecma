@@ -10,21 +10,21 @@ const [listProjects] = useState([
     des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
     mission: 'ign',
     language: 'HTML5, CSS3, React JS',
-    images: '/project1.PNG'
+    images: '/placeholder.png'
   },
   {
     name: 'Project ',
     des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
     mission: 'ASDASASD',
     language: 'HTML5, CSS3, React JS, SockerIO,...',
-    images: '/project2.PNG'
+     images: '/placeholder.png'
   },
   {
     name: 'Project ',
     des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
     mission: 'gn',
     language: 'HTML5, CSS3, React JS, SockerIO,...',
-    images: '/project2.PNG'
+     images: '/placeholder.png'
   },
 
 ]);

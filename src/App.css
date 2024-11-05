@@ -107,6 +107,9 @@ section.home{
     
     & .content{
         font-family: 'MuseoModerno', system-ui;
+        
+       
+     
         & .name{
             font-size: 7em;
             font-weight: bold;
@@ -123,7 +126,7 @@ section.home{
            
             color: #eee5;
             margin: 30px 0;
-            border-left: .7em solid #e945e3;
+            border-left: .7em solid #45e9e96b;
             padding-left: 2em;
         }
         & a{
@@ -131,14 +134,26 @@ section.home{
             font-size: large;
             color: #eee;
             font-weight: bold;
+            display: flex;
+          
             text-decoration: none;
             border: 1px solid #eee;
             background-color:transparent;
-            width: max-content;
+            width: 200px;
             padding: 20px 30px;
             border-radius: 40px;
         }
     }
+
+
+
+
+
+
+
+
+
+
     & .avatar{
         text-align: right;
         & .card{
@@ -147,7 +162,6 @@ section.home{
             display: inline-flex;
             flex-direction: column;
             width: min(100%, 428px);
-            
             box-shadow: 0 150px 150px #196a184a;
             transition: 0.5s;
             &:hover{
@@ -190,7 +204,6 @@ section.home{
             }   
 
             & .info-item {
-                
                 display: flex;
                 align-items: center; 
                 justify-content: center; 
@@ -202,6 +215,14 @@ section.home{
         }
     }
 }
+
+
+
+
+
+
+
+
 section.skills{
     & .title{
         text-align: center;
@@ -255,6 +276,17 @@ section.skills{
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 section.projects{
     & .title{
@@ -331,6 +363,16 @@ section.projects{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
 section.contacts{
     padding-bottom: 220px;
     & .title{
@@ -361,6 +403,7 @@ section.contacts{
 }
 .animation.active{
     opacity: 1;
+
     filter: blur(0);
     transform: translateY(0);
 }
