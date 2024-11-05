@@ -9,12 +9,14 @@ body{
     color: #eee;
     font-size: 15px;
     min-height: 100vh;
+
     background-image: linear-gradient(
         to right, transparent 0 49px, rgba(163, 102, 102, 0.067) 49px
     ),
     linear-gradient(
         to bottom, transparent 0 49px, #eee1 49px
     );
+    
     background-size: 50px 50px;
     &::before{
         position: fixed;
@@ -22,7 +24,7 @@ body{
         height: 400px;
         content: '';
         background-image: linear-gradient(
-            to right, #D02E23, #43b643
+            to right, #c2d023, #43b699
         );
         z-index: -1;
         top: -200px;
@@ -85,22 +87,18 @@ section{
     box-sizing: border-box;
     top: 0;
 }
-/* .delay-02{
-    animation-delay: 0.2s!important;
-}
-.delay-04{
-    animation-delay: 0.4s!important;
-}
-.delay-06{
-    animation-delay: 0.6s!important;
-} */
+
 section.home{
-    padding-top: 150px;
+    padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-content: space-between;
     align-items: center;
+
+    
+
+
     
     & .content{
         font-family: 'MuseoModerno', system-ui;
@@ -109,7 +107,7 @@ section.home{
             font-weight: bold;
             line-height: 1em;
             & span{
-                background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
+                background-image: linear-gradient(to right, #28e732, #F3265F, #7F40AC, #7BE728);
                 background-size: 200% auto;
                 -webkit-text-fill-color: transparent;
                 -webkit-background-clip: text;
@@ -117,6 +115,7 @@ section.home{
             }
         }
         & .des{
+           
             color: #eee5;
             margin: 30px 0;
             border-left: .7em solid #e945e3;
@@ -138,11 +137,13 @@ section.home{
     & .avatar{
         text-align: right;
         & .card{
-           
+           border-radius: 20px;
+           margin-top: -40px;
             display: inline-flex;
             flex-direction: column;
-            width: min(100%, 400px);
-            box-shadow: 0 150px 150px #e945e333;
+            width: min(100%, 428px);
+            
+            box-shadow: 0 150px 150px #196a184a;
             transition: 0.5s;
             &:hover{
                 box-shadow: 0 150px 150px #e945e355;
@@ -155,18 +156,44 @@ section.home{
                 clip-path: polygon(81% 0, 100% 18%, 100% 100%, 0 100%, 0 0);
             }
             & .info{
+                border-radius: 20px;
                 background-color: #eee; 
                 color: #010824;
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                margin-top: 2vh;
+                align-items: center;
+                justify-content: center;
+                width: 26vw;
+                align-content: center;
+                grid-template-columns: repeat(2, 3fr);
                 text-align: center;
                 gap: 20px;
-                padding: 20px;
+                padding: 15px;
                 font-size: 1.2em;
                 & div:nth-child(1), div:nth-child(2), div:nth-child(3){
                     font-weight: bold;
                 }
             }
+
+            & .iconreact{
+                font-size: 20px;
+                margin-right: 8px; 
+                
+                
+                
+                
+            }   
+
+            & .info-item {
+                
+                display: flex;
+                align-items: center; 
+                justify-content: center; 
+                font-weight: bold;
+            }
+
+
+           
         }
     }
 }
@@ -223,6 +250,7 @@ section.skills{
         }
     }
 }
+
 section.projects{
     & .title{
         margin-top: 100px;
