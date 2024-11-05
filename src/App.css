@@ -163,7 +163,7 @@ section.home{
                 margin-top: 2vh;
                 align-items: center;
                 justify-content: center;
-                width: 26vw;
+                
                 align-content: center;
                 grid-template-columns: repeat(2, 3fr);
                 text-align: center;
