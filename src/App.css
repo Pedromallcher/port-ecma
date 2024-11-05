@@ -169,7 +169,7 @@ section.home{
         text-align: right;
         & .card{
            border-radius: 20px;
-           margin-top: -40px;
+           margin-top: 40px;
             display: inline-flex;
             flex-direction: column;
             width: min(100%, 428px);
@@ -190,7 +190,7 @@ section.home{
                 background-color: #eee; 
                 color: #010824;
                 display: grid;
-                margin-top: 2vh;
+                
                 align-items: center;
                 justify-content: center;
                 
@@ -441,6 +441,34 @@ section.contacts{
     }
 }
 @media screen and (max-width: 767px) {
+
+    & .avatar{
+       
+
+        & .card{
+          
+           
+        
+        }
+
+        & .info{
+            
+            margin-top: -28px;
+           
+            
+        }   
+
+
+
+    }
+
+
+
+
+
+
+
+
     section{
         padding: 20px;
         &.home{
@@ -456,6 +484,8 @@ section.contacts{
                 grid-row-start: 1;
             }
         }
+
+
         &.projects{
             & .list{
                 & .item{
