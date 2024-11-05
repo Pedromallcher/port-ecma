@@ -42,7 +42,7 @@ const [listSkills] = useState([
   return (
     <section className='skills' ref={scrollTab}>
        <div className="title" ref={(el) => el && divs.current.push(el)}>
-        This is my Skills
+        MINHAS SKILLS
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}

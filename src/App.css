@@ -64,13 +64,18 @@ header{
     & .logo, nav{
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
+    
         & span{
             cursor: pointer;
         }
         & .active{
             color: #e945e3;
             text-shadow: 0 0 5px #7A43B6;
+        }
+        & .logo-img{
+            height: 34px;
+
         }
     }
     & .icon-bar{
