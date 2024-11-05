@@ -7,7 +7,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = ({activeTab}) => {
     const dispatch = useDispatch();
-    const [linkNav] = useState(['Home', 'Habilidades', 'Projetos', 'contato']);
+    const [linkNav] = useState(['home', 'skills', 'project', 'contact']);
     const [statusNav, changeStatusNav] = useState(null);
     const toggleNav = () => {
         changeStatusNav(statusNav === null ? 'active' : null);
