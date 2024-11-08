@@ -2,6 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;500;700&display=swap');
 
+.txt-informacao-site{
+    color: red;
+    z-index: 1000;
+    position: fixed;
+    left: 30%;
+    top: 33%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 40px;
+}
+
+
 body{
     margin: 0;
     font-family: Poppins;
@@ -441,6 +454,17 @@ section.contacts{
     }
 }
 @media screen and (max-width: 767px) {
+    .txt-informacao-site{
+        
+        left: 15%;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 18px;
+
+    }
+
+
+
 
     & .avatar{
        

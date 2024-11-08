@@ -15,6 +15,11 @@ CustomHook(scrollTab);
 return (
     <section ref={scrollTab} className='home'>
         <div className="content">
+
+        <div className='txt-informacao-site'>
+            <h1>Em desenvolvimento</h1>
+        </div>
+
     <div className="name">
         MEU NOME É <span>PEDRO</span>
     </div>
@@ -22,7 +27,7 @@ return (
         Sou graduado em Redes de Computadores e atualmente curso Engenharia de Software. Tenho experiência diversificada no setor de tecnologia, atuando em diferentes áreas, desde o desenvolvimento de software até o gerenciamento de infraestruturas de TI. Ao longo da minha carreira, já trabalhei em diversas frentes tecnológicas, adquirindo uma visão ampla e integrada dos desafios e soluções no mundo da tecnologia.
     </div>
 
-    <a href="/democv.pdf" target="_blank" rel="noopener noreferrer" className='animation active' style={{ display: 'flex', alignItems: 'center' }}>
+    <a href="/demovc.pdf" target="_blank" rel="noopener noreferrer" className='animation active' style={{ display: 'flex', alignItems: 'center' }}>
     Download Currículo 
     <FaArrowAltCircleDown className='iconreact' style={{ marginLeft: '8px' }} />
 </a>
