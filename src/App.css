@@ -181,8 +181,8 @@ section.home{
     & .avatar{
         text-align: right;
         & .card{
+            margin-top: -18vh;
            border-radius: 20px;
-           margin-top: 40px;
             display: inline-flex;
             flex-direction: column;
             width: min(100%, 428px);
@@ -272,7 +272,7 @@ section.skills{
             width: 70%;
             height: 70%;
             background-image: linear-gradient(
-                -45deg, red, blue
+                -45deg, rgb(183, 0, 255), rgb(0, 213, 255)
             );
             top: 50%;
             left: 50%;
@@ -409,6 +409,7 @@ section.projects{
 
 
 section.contacts{
+  
     padding-bottom: 220px;
     & .title{
         text-align: center;
@@ -459,6 +460,7 @@ section.contacts{
         }
         & .avatar{
             & img{
+
                 max-height: 500px;
             }
         }
@@ -477,26 +479,6 @@ section.contacts{
 
 
 
-    & .avatar{
-       
-
-        & .card{
-          
-           
-        
-        }
-
-        & .info{
-            
-            margin-top: -28px;
-           
-            
-        }   
-
-
-
-    }
-
 
 
 
@@ -506,18 +488,23 @@ section.contacts{
 
     section{
         padding: 20px;
+       
         &.home{
             grid-template-columns: 1fr;
-            padding-top: 70px;
+            padding-top: 25vh;
+           
             & .content{
                 & a{
                     margin: auto;
+                  
                     font-size: small;
                 }
             }
             & .avatar{
                 grid-row-start: 1;
             }
+
+          
         }
 
 
